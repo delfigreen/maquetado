@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap" rel="stylesheet">
+    <title>Reservas</title>
+</head>
+<body>
+    <header id="menu-nav">
+    <nav>
+        <ul class="menu-principal">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../nav/eventos.html">Eventos</a></li>
+            <li><a href="../nav/explora.html">Explora</a></li>
+            <li><a href="../nav/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div id="formulario">
+        
+        
+        <h1 class="visitar">¡Vení a visitar Breck!</h1>
+        
+        
+    <form name="formulario" autocomplete="off">
+        <div class="contenido-formulario">
+            <span>Nombre</span>
+            <input type="text" name="nombre" id="nombre" class="cajas" required>
+        
+            <span>Email</span>
+            <input type="email" name="email"   id="email" class="cajas" required>
+    
+
+    
+            <span>Teléfono</span>
+            <input type="number" name="telefono" id="telefono" class="cajas">
+
+            <span>¿En dónde te gustaria quedarte?</span>
+            <select id="lodge" name="lodge" required>
+                <option value="Beaver">Beaver Run Resort</option>
+                <option value="Peak7">Grand Lodge en Peak 7</option>
+                <option value="Peak8">Grand Colorado en Peak 8</option>
+                <option value="Gravity">Gravity House</option>
+                <option value="Residence">Residence Inn</option>
+                <option value="Timber">Timber Lodge</option>
+            </select>
+            
+            <span>Fecha y hora de llegada</span>
+            <input type="datetime-local" id="llegada" name="fecha-hora-llegada" class="cajas" required>
+            
+            <input type="submit" value="Enviar" name="submit" class="enviar">
+        </div>
+    </form>
+    
+            
+    
+        
+    </div>
+</main>
+    <footer id="barra-abajo">
+        <p>Logo de Breckenridge</p>
+        <div class="fondo">
+            <div class="anclas">
+                <ul>
+                    <li><a href="#menu-nav">Menu Principal</a></li>
+                    <li><a href="nav/epicpass.html">Epic Pass</a></li>
+                    <li><a href="nav/eventos.html">Eventos</a></li>
+                    <li><a href="nav/explora.html">Explora Breck</a></li>
+                </ul>
+            </div>  
+            <div class="soporte">
+            <ul>
+                <li>Politicas de privacidad</li>
+                <li>Contacto</li>
+                <li>Preguntas Frecuentes</li>
+                <li>Soporte Técnico</li>
+            </ul>
+            </div>
+    
+    
+            <div class="datos">
+                <ul >
+                    <li>Delfina Green</li>
+                    <li>Prof: Julian Preiss</li>
+                    <li>Maquetado y Desarrollo Web</li>
+                    <li>Entrega de la Escuela Da Vinci 2022</li>
+                </ul>
+            </div>
+        </div>
+    
+    </footer>
+</body>
+</html>
